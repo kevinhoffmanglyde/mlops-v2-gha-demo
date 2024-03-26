@@ -36,6 +36,6 @@ variables:
   terraform_workingdir: infrastructure
   terraform_st_resource_group: rg-$(student)-$(namespace)-$(postfix)$(environment)-tf
   terraform_st_location: $(location)
-  terraform_st_storage_account: st$(student)$(namespace)$(postfix)$(environment)tf
+  terraform_st_storage_account: st$(student)$(namespace)$(postfix)$(environment)tfdq
   terraform_st_container_name: default
   terraform_st_key: mlops-tab
